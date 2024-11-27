@@ -1,0 +1,129 @@
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5%;
+    width: 350px;
+}
+.LegendsH{
+    text-align: center;
+}
+h1,h2{
+    color: white;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5ba4cd;
+
+}
+.B1 a{
+    text-decoration: none;
+    color: black;
+}
+.B2 a {
+    text-decoration: none;
+    color: black;
+}
+.B3 a{
+    text-decoration: none;
+    color: black;}
+.B4 a{
+    text-decoration: none;
+    color: black;}
+.B5 a{
+    text-decoration: none;
+    color: black;}
+a{
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+.Button{
+    text-align: left;
+}
+.B1{
+    background-color: #5ba4cd;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 40px;
+}
+.B2{
+    background-color: #5ba4cd;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    width: 120px;
+    height: 40px;
+}
+.B3{
+    background-color: #5ba4cd;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    width: 120px;
+    height: 40px;
+}
+.B4{
+    background-color: #5ba4cd;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 40px;
+}
+.B5{
+    background-color: #5ba4cd;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 40px;
+}
+#C1{
+    background-color: #ffd11b;
+    border-color: #000000;
+    border-style: solid;
+    margin-top: 1.6%;
+    text-align: left;
+    padding: 1%;
+}
+#C2{
+    background-color: #00eaff;
+    border-color: #000000;
+    border-style: solid;
+    margin-top: 1.6%;
+    padding: 1%
+}
+#C3{
+    background-color: #c25bcd;
+    border-color: #000000;
+    border-style: solid;
+    margin-top: 1.6%;
+    padding: 1%
+}
+#C4{
+    background-color: #c18345;
+    border-color: #000000;
+    border-style: solid;
+    margin-top: 1.6%;
+    padding: 1%
+
+}
+#C5{
+    background-color: #5bcda1;
+    border-color: #000000;
+    border-style: solid;
+    margin-top: 1.6%;
+    padding: 1%
+
+}
+.C6{
+    background-color: #622580;
+    border-color: #000000;
+    border-style: solid;
+    margin-top: 1.6%;
+    padding: 1%
+}
