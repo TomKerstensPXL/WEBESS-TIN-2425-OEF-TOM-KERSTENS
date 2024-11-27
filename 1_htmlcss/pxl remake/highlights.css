@@ -1,0 +1,12 @@
+p.highlight{
+    color:yellow;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-color:yellow;
+    border-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+}
