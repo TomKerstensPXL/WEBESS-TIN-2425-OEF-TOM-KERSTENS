@@ -1,0 +1,69 @@
+/* 
+    naam: Tom Kerstens
+*/
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+table{
+    width: 600px;
+    border-collapse: collapse;
+    border: 5px solid black;
+    animation: transitions;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes transitions{
+    from {width: 600px; opacity: 100%;}
+    to {width: 450px;opacity: 10%;}
+}
+img{
+    display: block;
+    width: 180px;
+    border: 5px solid gray;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: white;
+}
+thead {
+    font-weight: bold;
+    background-color: #4D6D8F;
+    font-family: monospace;
+    color: white;
+    th{
+        text-decoration: underline;
+        border: 3px solid black;
+    }
+    td{
+        border: 3px solid black;
+    }
+}
+tbody th{
+    background-color: #4D6D8F ;
+    text-decoration: underline;
+    color: white;
+    border: 3px solid black;
+}
+tbody tr{
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+tbody tr:nth-child(odd) {
+    background-color:  #FEFF63;
+}
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+/*
+    blauw = #4D6D8F;
+    geel =  #FEFF63;
+*/
+
+

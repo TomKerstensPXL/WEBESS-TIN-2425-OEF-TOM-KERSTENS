@@ -1,0 +1,624 @@
+/*
+    naam: Tom Kerstens
+*/
+@media screen and (min-width: 1800px) {
+    .mainconteiner {
+        position: relative;
+        margin: auto;
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    header {
+        text-transform: uppercase;
+        width: 100%;
+        text-align: left;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    header h2 {
+        font-size: 2em;
+        border-left: 15px solid orange;
+        padding-left: 0.5em;
+    }
+
+    header .lijn {
+        border-top: 2px solid orange;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    img {
+        border-radius: 8px;
+    }
+
+    figure {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        text-align: center;
+    }
+
+    figcaption {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        text-shadow: 2px 2px 2px black;
+        color: white
+    }
+    main {
+        display: grid;
+        justify-content: center;
+        align-items: start;
+        grid-template-columns: 60% 40%;
+        gap: 1em;
+        margin: 0 auto;
+        padding: 1em;
+        position: relative;
+    }
+
+    .nummer1{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/3;
+        padding: 1em;
+        p {
+            flex: 1;
+            text-align: left;
+        }
+        img{
+            width: 100%;
+            display: block;
+            float: left;
+            height: auto;
+        }
+        figure{
+            float: left;
+            width: 40%;
+            padding-right: 10px;
+            padding-bottom: 10px;
+        }
+    }
+    .nummer23{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 1em;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        p{
+            line-height: 1em;
+            height: 3em;
+            overflow: hidden;
+            text-align: left;
+        }
+        img{
+            width: 100%;
+            display: block;
+            height: auto;
+            aspect-ratio: 400/225;
+            object-fit: cover;
+        }
+    }
+    .nummer456{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+        grid-column: 1/3;
+        grid-row: 3/4;
+        p{
+            line-height: 1em;
+            height: 3em;
+            overflow: hidden;
+            text-align: left;
+        }
+        img{
+            width: 100%;
+            display: block;
+            height: auto;
+            aspect-ratio: 400/225;
+            object-fit: cover;
+        }
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        background-color: orange;
+        text-align: center;
+        width: 100%;
+        color: white;
+    }
+
+    .nav {
+        width: 250px;
+        position: sticky;
+        top: 20px;
+        right: 20px;
+        float: right;
+        border: 2px solid orange;
+        background-color: white;
+        z-index: 10;
+        font-size: 1.4em;
+        border-radius: 10px;
+    }
+
+    .natuurwoord {
+        background-color: orange;
+        top: 0;
+        color: white;
+        text-transform: uppercase;
+        display: flex;
+        padding: 0 0 0 5px;
+
+        span {
+            display: none;
+        }
+    }
+
+    .nav img {
+        width: 10px;
+        padding: 0 0 0 5px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav .input {
+        width: 100px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+
+    .navitems {
+        padding-left: 5px;
+        padding-bottom: 5px;
+        margin-top: 0;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    footer{
+        display: none;
+    }
+    nav {
+        position: static;
+        top: 0;
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        .navitems{
+            display: flex;
+            justify-content: left;
+        }
+        .inputbox {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+        .natuurwoord{
+            background-color: orange;
+            margin-left: 0;
+            color: white;
+            text-transform: uppercase;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+    }
+    .nav img {
+        display: none;
+    }
+    .nav a {
+        text-decoration: none;
+        color: black;
+        margin: 0 15px;}
+    .mainconteiner {
+        position: relative;
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    header {
+        text-transform: uppercase;
+        width: 100%;
+        text-align: left;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    header h2 {
+        font-size: 2em;
+        border-left: 15px solid orange;
+        padding-left: 0.5em;
+    }
+
+    header .lijn {
+        border-top: 2px solid orange;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    img {
+        border-radius: 8px;
+    }
+
+    figure {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        text-align: center;
+    }
+
+    figcaption {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        text-shadow: 2px 2px 2px black;
+        color: white
+    }
+    main {
+        display: grid;
+        justify-content: center;
+        align-items: start;
+        grid-template-columns: 60% 40%;
+        gap: 1em;
+        margin: 0 auto;
+        padding: 1em;
+        position: relative;
+    }
+
+    .nummer1{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/3;
+        padding: 1em;
+        p {
+            flex: 1;
+            text-align: left;
+        }
+        img{
+            width: 100%;
+            display: block;
+            float: left;
+            height: auto;
+        }
+        figure{
+            float: left;
+            width: 40%;
+            padding-right: 10px;
+            padding-bottom: 10px;
+        }
+    }
+    .nummer23{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 1em;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        p{
+            line-height: 1em;
+            height: 3em;
+            overflow: hidden;
+            text-align: left;
+        }
+        img{
+            width: 100%;
+            display: block;
+            height: auto;
+            aspect-ratio: 400/225;
+            object-fit: cover;
+        }
+    }
+    .nummer456{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+        grid-column: 1/3;
+        grid-row: 3/4;
+        p{
+            line-height: 1em;
+            height: 3em;
+            overflow: hidden;
+            text-align: left;
+        }
+        img{
+            width: 100%;
+            display: block;
+            height: auto;
+            aspect-ratio: 400/225;
+            object-fit: cover;
+        }
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 900px){
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 1.4em;
+    }
+    footer{
+        display: none;
+    }
+    nav {
+
+        position: static;
+        top: 0;
+        width: 80%;
+        margin-left: 10%;
+        display: inline-block;
+        .navitems{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .inputbox {
+            display: none   ;
+        }
+        .natuurwoord{
+            background-color: orange;
+            margin-left: 0;
+            padding: 2px;
+            margin-bottom: 1em;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            justify-content: center;
+            font-size: 2em;
+        }
+    }
+    figcaption{
+        display: none;
+    }
+    .nav img {
+        display: none;
+    }
+    .nav a {
+        text-decoration: none;
+        color: black;
+        margin: 0 15px;
+    }
+    header{
+        display: none;
+    }
+    header .lijn{
+        border-top: 2px solid orange;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .mainconteiner{
+
+        border-top: 2px solid orange;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    main {
+        display: grid;
+        grid-template-rows: auto auto; /* Adjust as needed */
+        grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+        gap: 1em;
+        margin: 0 auto;
+        padding: 1em;
+        position: relative;
+    }
+
+    .nummer1{
+        display: grid;
+        grid-column: span 1; /* Each spans one column */
+        grid-row: 1; /* All are in the first row */
+    }
+    .nummer23{
+        display: flex;
+        gap: 1em;
+    }
+    .nummer2, .nummer3{
+        flex: 1;
+        padding-left: 10px;
+        margin-left: -9px;
+        width: 100%;
+        aspect-ratio: 400 / 225; /* Maintain aspect ratio */
+        object-fit: cover;
+
+    }
+
+    .nummer456 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+        gap: 1em;
+        grid-column: span 3; /* Spans all columns */
+        grid-row: 2; /* Positioned in the second row */
+    }
+    .nummer1 figure, .nummer3 figure, .nummer456 figure, .nummer2 figure{
+        margin: 0;
+    }
+
+    .nummer1 img,
+    .nummer2 img,
+    .nummer3 img,
+    .nummer456 img {
+        border-radius: 10px;
+        width: 100%;
+        display: block;
+        aspect-ratio: 400 / 225; /* Maintain aspect ratio */
+        object-fit: cover;
+    }
+
+    .nummer1 p,
+    .nummer2 p,
+    .nummer3 p,
+    .nummer456 p {
+        line-height: 1em;
+        height: 3em;
+        overflow: hidden;
+        text-align: left;
+    }
+
+}
+@media  (max-width: 900px){
+    body {
+        margin:0;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 1.4em;
+    }
+    footer{
+        display: none;
+    }
+    nav {
+        position: static;
+        top: 0;
+        width: 80%;
+        margin-left: 10%;
+        display: inline-block;
+        .navitems{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .inputbox {
+            display: none   ;
+        }
+        .natuurwoord{
+            background-color: orange;
+            margin-left: 0;
+            margin-bottom: 1em;
+            padding: 2px;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            justify-content: center;
+            font-size: 1.5em;
+            width: 100%;
+        }
+
+    }
+    h3 {
+        text-align: center;
+    }
+    .nummer1 p {
+        display: none;
+    }
+    .nummer23 p {
+        display: none;
+    }
+    .nummer456 p {
+        display: none;
+    }
+    figcaption{
+        display: none;
+    }
+    .nav img {
+        display: none;
+    }
+    .nav a {
+        text-decoration: none;
+        color: black;
+        margin: 0 15px;
+    }
+    header{
+        display: none;
+    }
+    header .lijn{
+        display: block;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    article {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    article h2 {
+        margin: 0;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #ddd;
+    }
+
+    article img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 400/225;
+        object-fit: cover;
+
+    }
+    .nummer1, .nummer23, .nummer456 {
+        aspect-ratio: 400/225;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*
+Hint:
+    (1) Omzetten naar hoofdletters:
+            text-transform: uppercase;
+    (2) Schaduw in figcaption
+            text-shadow: 2px 2px 2px black;
+    (3) Eerste 3 lijnen tonen van de paragrafen
+            line-height:1em;
+	        height:3em;
+    (4) Herschaling van de figuren
+            aspect-ratio: 400 / 225;
+        s    object-fit:cover;
+*/
